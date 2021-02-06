@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import "bulma/bulma.sass";
 
-function MyApp({ Component, pageProps }) {
+function HomeServerApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default HomeServerApp

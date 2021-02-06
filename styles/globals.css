@@ -1,3 +1,4 @@
+/*
 html,
 body {
   padding: 0;
@@ -13,4 +14,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+*/
+
+#__next > div:first-child {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
 }
